@@ -1,0 +1,28 @@
+
+Regi Id : 11700507 
+
+#Distance Programme
+import math
+x1 = int(input("Enter x1 value "))
+x2 = int(input("Enter x2 value "))
+y1 = int(input("Enter y1 value "))
+y2 = int(input("Enter y2 value "))
+distance = math.sqrt( ((x1-x2)**2)+((y2-y1)**2) )
+
+print(distance)
+
+
+#Print Grades  according your Marks
+
+marks=int(input("Enter Your Marks "))
+
+if (marks >= 90):
+    print("A Grade")
+elif((marks >=75) and (marks < 90) ):
+    print("B Grade")
+elif((marks >=65) and (marks < 75) ):
+    print("C Grade ")
+elif((marks >=40) and (marks < 65) ):
+    print("D Grade")
+else:
+    print("Fail")
